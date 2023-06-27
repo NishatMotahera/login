@@ -70,7 +70,7 @@ a:hover{
 .twitter{
 	width: 180px;
 	position: fixed;
-	top: 55%;
+	top: 46%;
 	right: -125px;
 	transition: 1s;
 }
@@ -202,7 +202,7 @@ a:hover{
 }
 .social-media li a .fa-whatsapp:hover{
 	background: #3AE65E;
-	color: #000;
+	color: #fff;
 	border: 1px solid #08c;
 
 }
