@@ -1,83 +1,227 @@
 *{
-	padding:0px;
+	padding: 0px;
 	margin:0px;
 }
 body{
-    font-family: 'Poppins', sans-serif;
-	font-size:14px;
-	line-height:24px;
+	font-family: serif;
+	font-size: 14px;
+	line-height: 1.7em;
+	height: 1400px;
 
 }
 h1, h2, h3, h4, h5, h6{
-	font-family: 'Open Sans', sans-serif;
+	font-family: sans-serif;
+
 }
 a{
 	text-decoration: none;
 }
-.login-box{
-	width: 500px;
-	margin: 40px auto;
-	padding: 40px;
-	background: #eee;
-	border-radius: 10px;
-	border-top: 4px solid #000;
-	border-bottom: 4px solid #000;
+a:hover{
+	text-decoration: none;
 }
-.login{
-	width: 100%;
+.green{
+	width: 600px;
+	height: 350px;
+	background: green;
+    position: relative;
 }
-.login .avater{
-	width: 100%;
-	text-align: center;
-	padding: 20px 0px 30px;
-}
-.login .avater img{
-	width: 150px;
-	height: 150px;
-	border: 1px solid #000;
+.red{
+	width: 180px;
+	height: 180px;
+	background: red;
 	border-radius: 100%;
-	margin: 0px 0px 20px; 
+	position: absolute;
+	bottom: 24%;
+	right: 35%;
 }
-.login .avater h1{
-	font-size: 42px;
-	line-height: 52px;
-	font-weight: 600;
-	text-transform: uppercase;
+.yellow{
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	border-radius: 100%;
+	position: absolute;
+	bottom: 24%;
+	right: 25%;
+
 }
-.login .form-group{
-	width: 100%;
-	margin: 0px 0px 15px;
+.fb{
+	width: 180px;
+	position: fixed;
+	top: 40%;
+	right: -125px;
+	transition: 1s;
+
 }
-.login .form-group label{
-	display: block;
-	font-size: 14px;
-	font-weight: 600;
-	text-transform: uppercase;
-}
-.login .form-group .form-control{
-	padding: 15px;
-	border-radius: 5px;
-	width: 95%;
-	border: 2px solid #000;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 24px;
-	color: #000;
-	background: transparent;
-}
-.login .form-group .btn-primary{
-	padding: 15px 55px;
-	border-radius: 5px;
-	font-size: 14px;
-	text-transform: uppercase;
-	color: #fff;
-	background: #000;
-	border: 2px solid #000;
-	transition: 0.5s;
-}
-.login .form-group .btn-primary:hover{
-	color: #000;
-	background: transparent;
-	border: 2px solid #000;
+.fb:hover{
+	right: -2px;
 	cursor: pointer;
+}
+.linkedin{
+	width: 180px;
+	position: fixed;
+	top: 43%;
+	right: -125px;
+	transition: 1s;
+}
+.linkedin:hover{
+	right: -2px;
+	cursor: pointer;
+}
+.twitter{
+	width: 180px;
+	position: fixed;
+	top: 55%;
+	right: -125px;
+	transition: 1s;
+}
+.twitter:hover{
+	right: -2px;
+	cursor: pointer;
+}
+.social-media{
+	width:100%;
+	display: center;
+	text-align: center;
+	padding: 40px 0px;
+}
+.social-media li{
+	list-style: none;
+	display: inline-block;
+}
+.social-media li a{
+	display: block;
+    margin: 0px 15px;
+}
+.social-media li a .fa-facebook{
+	display: block;
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    font-size: 32px;
+    border-radius: 100%;
+    transition: 1s;
+
+}
+.social-media li a .fa-facebook:hover{
+	background: #08c;
+	color: #fff;
+	border: 1px solid #08c;
+
+}
+.social-media li a .fa-twitter{
+	display: block;
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    font-size: 32px;
+    border-radius: 100%;
+    transition: 1s;
+
+}
+.social-media li a .fa-twitter:hover{
+	background: #08c;
+	color: #fff;
+	border: 1px solid #08c;
+
+}
+.social-media li a .fa-youtube{
+	display: block;
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    font-size: 32px;
+    border-radius: 100%;
+    transition: 1s;
+
+}
+.social-media li a .fa-youtube:hover{
+	background: #FB4C4C;
+	color: #fff;
+	border: 1px solid #08c;
+
+}
+.social-media li a .fa-instagram{
+	display: block;
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    font-size: 32px;
+    border-radius: 100%;
+    transition: 1s;
+
+}
+.social-media li a .fa-instagram:hover{
+	background: #DC454C;
+	color: #fff;
+	border: 1px solid #08c;
+
+}
+.social-media li a .fa-linkedin{
+	display: block;
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    font-size: 32px;
+    border-radius: 100%;
+    transition: 1s;
+
+}
+.social-media li a .fa-linkedin:hover{
+	background: #08c;
+	color: #fff;
+	border: 1px solid #08c;
+
+}
+.social-media li a .fa-whatsapp{
+	display: block;
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    font-size: 32px;
+    border-radius: 100%;
+    transition: 1s;
+
+}
+.social-media li a .fa-whatsapp:hover{
+	background: #3AE65E;
+	color: #000;
+	border: 1px solid #08c;
+
+}
+.social-media li a .fa-telegram{
+	display: block;
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    font-size: 32px;
+    border-radius: 100%;
+    transition: 1s;
+
+}
+.social-media li a .fa-telegram:hover{
+	background: #08c;
+	color: #fff;
+	border: 1px solid #08c;
+
 }
