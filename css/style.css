@@ -1,16 +1,14 @@
 *{
 	padding: 0px;
-	margin:0px;
+	margin: 0px;
 }
 body{
-	font-family: serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
 	line-height: 1.7em;
-	height: 1400px;
-
 }
 h1, h2, h3, h4, h5, h6{
-	font-family: sans-serif;
+	font-family: 'Poppins', sans-serif;
 
 }
 a{
@@ -19,209 +17,176 @@ a{
 a:hover{
 	text-decoration: none;
 }
-.green{
-	width: 600px;
-	height: 350px;
-	background: green;
-    position: relative;
+/* global css code */
+.container{
+	width: 1140px;
+	margin: 0px auto;
 }
-.red{
-	width: 180px;
-	height: 180px;
-	background: red;
-	border-radius: 100%;
-	position: absolute;
-	bottom: 24%;
-	right: 35%;
-}
-.yellow{
-	width: 200px;
-	height: 200px;
-	background: yellow;
-	border-radius: 100%;
-	position: absolute;
-	bottom: 24%;
-	right: 25%;
+.row{
+	width: 100%;
+	float: left;
 
 }
-.fb{
-	width: 180px;
-	position: fixed;
-	top: 40%;
-	right: -125px;
-	transition: 1s;
+.col-12{
+	width: 100%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
 
 }
-.fb:hover{
-	right: -2px;
-	cursor: pointer;
+.col-4{
+	width: 33.33%;
+	float: left;
 }
-.linkedin{
-	width: 180px;
-	position: fixed;
-	top: 43%;
-	right: -125px;
-	transition: 1s;
+/*********************/
+.header{
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+	border-bottom: 1px solid #eee;
 }
-.linkedin:hover{
-	right: -2px;
-	cursor: pointer;
+.header .navbar{
+	display: block;
+	width: 100%;
+	text-align: right;
+
 }
-.twitter{
-	width: 180px;
-	position: fixed;
-	top: 55%;
-	right: -125px;
-	transition: 1s;
-}
-.twitter:hover{
-	right: -2px;
-	cursor: pointer;
-}
-.social-media{
-	width:100%;
-	display: center;
-	text-align: center;
-	padding: 40px 0px;
-}
-.social-media li{
+.header .navbar li{
 	list-style: none;
 	display: inline-block;
 }
-.social-media li a{
+.header .navbar li a{
 	display: block;
-    margin: 0px 15px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #0F2656;
+	margin: 10px 0px 0px 25px;
+	transition: 1s;
 }
-.social-media li a .fa-facebook{
-	display: block;
-	width: 90px;
-	height: 90px;
-	line-height: 90px;
-	background: #000;
-    color: #fff;
-    border: 1px solid #000;
-    font-size: 32px;
-    border-radius: 100%;
-    transition: 1s;
+.header .navbar li a:hover{
+	color: #008AFF;
+}
+
+.header .navbar li a:focus{
+	color: #008AFF;
+}
+.banner{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	text-align: center;
 
 }
-.social-media li a .fa-facebook:hover{
-	background: #08c;
+.banner h1{
+      font-size: 60px;
+      line-height: 1.3em;
+      font-weight: 700;
+      color: #0F2656;
+      margin: 0px 0px 10px;
+}
+.banner h1 span{
+    color: #008AFF;
+}
+.banner p{
+	  font-size: 14px;
+      line-height: 1.7em;
+      color: #0F2656;
+      margin: 0px 0px 10px;
+}
+.banner .banner-img{
+	width: 70%;
+	margin: 0px 0px 0px;
+
+}
+.c{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+}
+.success .left-success{
+	width: 100%;
+	float: left;
+    text-align: right;
+}
+.success .left-success h1{
+	  font-size: 60px;
+      line-height: 1.3em;
+      font-weight: 700;
+      color: #F15767;
+      margin: 0px 15px 10px 0px;
+}
+.success .left-success p{
+	 font-size: 14px;
+      line-height: 1.7em;
+      color: #0F2656;
+      margin: 0px 15px 10px 0px;
+}
+.success .right-success{
+	width: 100%;
+	float: left;
+
+}
+.success .right-success h1{
+	 font-size: 60px;
+      line-height: 1.2em;
+      font-weight: 700;
+      color: #0F2656;
+      margin: 0px 0px 0px 15px;
+}
+.feature{
+	width: 100%;
+	float: left;
+	padding: 60px 0px 80px;
+}
+.inner-feature{
+	width: 75%;
+	float: left;
+	padding: 50px 35px;
+	margin: 0px 15px;
+}
+.inner-feature img{
+	width: 100%;
+	height: 223px;
+}
+.inner-feature h4{
+	font-size: 20px;
+	line-height: 1.2em;
+	font-weight: 700;
+	color: #0F2656;
+	margin: 10px 0px;
+}
+.inner-feature p{
+	font-size: 14px;
+    line-height: 1.7em;
+    color: #0F2656;
+}
+.bg1{
+	background: #FDEBED;
+}
+.bg2{
+    background: #EBF9F4;
+}
+.bg3{
+	background: #FFF7E8;
+}
+.footer{
+	width: 100%;
+	float: left;
+	padding: 25px 0px;
+	background: #008AFF;
+}
+.footer p{
+    font-size: 14px;
+    line-height: 1.7em;
+    text-align: center;
+    color: #f0f0f0;
+}
+.footer p span{
 	color: #fff;
-	border: 1px solid #08c;
-
-}
-.social-media li a .fa-twitter{
-	display: block;
-	width: 90px;
-	height: 90px;
-	line-height: 90px;
-	background: #000;
-    color: #fff;
-    border: 1px solid #000;
-    font-size: 32px;
-    border-radius: 100%;
-    transition: 1s;
-
-}
-.social-media li a .fa-twitter:hover{
-	background: #08c;
-	color: #fff;
-	border: 1px solid #08c;
-
-}
-.social-media li a .fa-youtube{
-	display: block;
-	width: 90px;
-	height: 90px;
-	line-height: 90px;
-	background: #000;
-    color: #fff;
-    border: 1px solid #000;
-    font-size: 32px;
-    border-radius: 100%;
-    transition: 1s;
-
-}
-.social-media li a .fa-youtube:hover{
-	background: #FB4C4C;
-	color: #fff;
-	border: 1px solid #08c;
-
-}
-.social-media li a .fa-instagram{
-	display: block;
-	width: 90px;
-	height: 90px;
-	line-height: 90px;
-	background: #000;
-    color: #fff;
-    border: 1px solid #000;
-    font-size: 32px;
-    border-radius: 100%;
-    transition: 1s;
-
-}
-.social-media li a .fa-instagram:hover{
-	background: #DC454C;
-	color: #fff;
-	border: 1px solid #08c;
-
-}
-.social-media li a .fa-linkedin{
-	display: block;
-	width: 90px;
-	height: 90px;
-	line-height: 90px;
-	background: #000;
-    color: #fff;
-    border: 1px solid #000;
-    font-size: 32px;
-    border-radius: 100%;
-    transition: 1s;
-
-}
-.social-media li a .fa-linkedin:hover{
-	background: #08c;
-	color: #fff;
-	border: 1px solid #08c;
-
-}
-.social-media li a .fa-whatsapp{
-	display: block;
-	width: 90px;
-	height: 90px;
-	line-height: 90px;
-	background: #000;
-    color: #fff;
-    border: 1px solid #000;
-    font-size: 32px;
-    border-radius: 100%;
-    transition: 1s;
-
-}
-.social-media li a .fa-whatsapp:hover{
-	background: #3AE65E;
-	color: #fff;
-	border: 1px solid #08c;
-
-}
-.social-media li a .fa-telegram{
-	display: block;
-	width: 90px;
-	height: 90px;
-	line-height: 90px;
-	background: #000;
-    color: #fff;
-    border: 1px solid #000;
-    font-size: 32px;
-    border-radius: 100%;
-    transition: 1s;
-
-}
-.social-media li a .fa-telegram:hover{
-	background: #08c;
-	color: #fff;
-	border: 1px solid #08c;
+	font-weight: 700;
+	text-transform: uppercase;
 
 }
