@@ -2,14 +2,17 @@
 	padding: 0px;
 	margin: 0px;
 }
+html{
+	scroll-behavior: smooth;
+}
 body{
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 1.7em;
+
 }
 h1, h2, h3, h4, h5, h6{
-font-family: 'Poppins', sans-serif;
-
+	font-family: 'Montserrat', sans-serif;
 }
 a, a:hover{
 	text-decoration: none;
@@ -17,225 +20,201 @@ a, a:hover{
 .header{
 	width: 100%;
 	padding: 10px 0px;
-	background: #F0FFF0;
-
+	background: #fff;
 }
-.menu .navbar-expand-lg .navbar-nav .nav-link{
-	margin: 0px 0px 0px 30px;
-	font-size: 16px;
-	font-weight: 600;
-	color: #000;
-}
-.menu .navbar-expand-lg .navbar-nav .nav-link:hover, .menu .navbar-expand-lg .navbar-nav .nav-link:focus{
-	color: #21B573;
-}
-.menu .btn-success{
-	padding: 8px 20px;
-	border-radius: 35px;
-	background: #21B573;
-	color: #fff;
-	margin: 0px 0px 0px 30px;
-	border: 1px solid #21B573;
-	font-size: 16px;
-	font-weight:600;
-    transition: 1s;
-
-}
-.menu .btn-success:hover, .menu .btn-success:focus{
-	background: transparent;
-	color: #21B573;
-	border: 1px solid #21B573;
-
-}
-.banner{
-	width: 100%;
-	padding: 80px 0px;
-}
-.banner .inner-banner{
-	width: 100%;
-	margin: 50px 0px 0px;
-}
-.banner .inner-banner h4{
-	font-size: 18px;
-	line-height: 1.2em;
-	font-weight: 600;
-	color: #FD511A;
-
-}
-.banner .inner-banner h1{
-	font-size: 48px;
-	line-height: 1.2em;
-	font-weight: 600;
-	color: #000;
-	margin: 20px 0px;
-}
-.banner .inner-banner h1 span{
-	color: #21B573;
-}
-.banner .inner-banner p{
-	font-size: 16px;
-	line-height: 1.7em;
-	font-weight:500;
-	color: #000;
-}
-.banner .inner-banner .btn-success{
-	display: inline-block;
-	padding: 10px 30px;
-	border-radius: 35px;
-	background: #21B573;
-	color: #fff;
-	margin: 20px 0px 0px 0px;
-	border: 1px solid #21B573;
-	font-size: 16px;
-	font-weight: 600;
-    transition: 1s;
-
-}
-.banner .inner-banner .btn-success:hover, .banner .inner-banner .btn-success:focus{
-	background: transparent;
-	color: #21B573;
-	border: 1px solid #21B573;
-}
-.feature{
-	width: 100%;
-	padding: 80px 0px;
-}
-.feature .inner-feature{
-	width: 100%;
-	padding: 40px;
-	text-align: center;
-	background: #F8FFFB;
-	border-radius: 10px;
-
-}
-.feature .inner-feature img{
-	width: 66px;
-	height: 85px;
-	margin: 0px 0px 20px;
-}
-.feature .inner-feature h4{
-	font-size: 20px;
-	font-weight: 700;
-	margin: 0px ;
-}
-.feature .inner-feature p{
+.header .navbar-expand-lg .navbar-nav .nav-link{
 	font-size: 14px;
-	margin: 0px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #28377e;
+	letter-spacing: 1px;
+	margin: 0px 0px 0px 25px;
+	transition: 1s;
 }
-.feature .inner-feature:hover{
-	box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
-
+.header .navbar-expand-lg .navbar-nav .nav-link:hover, .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+	color: #f2622c;
 }
-.course{
+.slider{
 	width: 100%;
 	padding: 80px 0px;
+	background: url("../images/slider.png") center top no-repeat;
+	background-size: cover;
 }
-.course h1{
-	font-size: 48px;
-	font-weight: 700;
+.inner-slider{
+	width: 100%;
+	padding: 125px 0px 0px;
 	text-align: center;
-	margin: 0px 0px 60px;
 }
-.course .card{
-	padding: 15px;
+.inner-slider h1{
+	font-size: 52px;
+	line-height: 1.2em;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.arrow{
+	width: 100%;
+	padding: 130px 0px 0px;
+}
+/*global css for title*/
+.title{
+	width:100% ;
+	padding: 0px 0px 20px;
+}
+.title h1{
+	font-size: 48px;
+	line-height: 1.2em;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #28377e;
+}
+
+/*global css for title*/
+
+
+.who-we-are{
+	width: 100%;
+	padding: 100px 0px;
+}
+.who-we-are .title{
+	margin: 60px 0px 0px;
+}
+.who-we-are p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #b0b0b1;
+}
+.what-we-do{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/whatdo.png") center top no-repeat;
+	background-size: cover;
+}
+.what-we-do .title{
+	text-align: center;
+	width: 100%;
+	padding: 0px 0px 0px;
+}
+.what-we-do .card{
 	border: 0px;
-    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
-    border-radius: 15px;
+	border-radius: 0px;
 }
-.course .card .card-body{
-	padding: 20px 0px;
-}
-.course .card .card-title{
-	font-size: 22px;
-	line-height: 1.2em;
-	font-weight: 600;
-	color: #000;
-}
-.course .card .card-body .card-text{
-	font-size: 14px;
-	line-height: 1.7em;
-	margin: 0px 0px 20px;
-}
-.course .card .card-body .btn-success{
-	display: inline-block;
-	padding: 7px 25px;
-	border-radius: 35px;
-	background: #21B573;
-	color: #fff;
-	margin: 10px 0px 30px 0px;
-	border: 1px solid #21B573;
-	font-size: 16px;
-	font-weight: 600;
-    transition: 1s;
-
-}
-.course .card .card-body .btn-success:hover, .course .card .card-body .btn-success:focus{
-	background: transparent;
-	color: #21B573;
-	border: 1px solid #21B573;
-}
-.course .card .date{
-	font-size: 14px;
-    margin: 0px;
-}
-.course .card .seat{
-	font-size: 14px;
-	text-align: right;
-	margin: 0px;
-}
-.date img, .seat img{
-    width: 14px;
-}
-.testimonial{
-	width: 100%;
-	padding: 40px 0px 80px;
-}
-.testimonial h1{
-	font-size: 48px;
-	font-weight: 700;
-	line-height: 1.2em;
-	margin: 0px 0px 60px;
+.what-we-do .card .card-img-overlay{
 	text-align: center;
 }
-.client-img{
-	width: 80px;
-	height: 80px;
-	border-radius: 100%;
+.what-we-do .card .card-img-overlay .card-title{
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	width: 70%;
+	font-size: 22px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 1.4em;
 }
-.testimonial p{
-	font-size: 16px;
+.what-we-do .card .card-img-overlay .long-arrow{
+	position: absolute;
+	bottom: 15%;
+	left: 45%;
+}
+.our-attorney{
+	width: 100%;
+	padding: 115px 0px 80px;
+	background: url("../images/atbg.png") center top no-repeat;
+	background-size: cover;
+}
+.our-attorney .title{
+	padding: 110px 0px 0px;
+}
+.our-attorney .title h1{
+	color: #fff;
+}
+.our-attorney p{
+	font-size: 14px;
 	line-height: 1.7em;
+	color: #929dcf;
 }
+.our-attorney .btn-link{
+	padding: 0px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #f2622c;
+	letter-spacing: 1px;
+}
+.our-attorney .card{
+	border: 0px;
+	border-radius: 0px;
+	margin: 0px 0px 25px;
+}
+.our-attorney .card .card-img{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.our-attorney .card .card-title{
+	position: absolute;
+	bottom: 8%;
+	left: 8%;
+	font-size: 22px;
+	line-height: 1.4em;
+	color: #fff;
+}
+.language{
+	width: 100%;
+	padding: 80px 0px;
+}
+.language .title{
+	padding: 0px 0px 80px;
+	text-align: center;
+}
+.inner-language{
+	width: 100%;
+}
+.inner-language h4{
+	font-size: 22px;
+	line-height: 1.3em;
+	color: #28377e;
+}
+.inner-language p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #b0b0b1;
+}
+.inner-language .btn-link{
+	padding: 0px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #f2622c;
+	letter-spacing: 1px;
+}
+.login-box{
+	width: 100%;
+	padding: 115px 0px 80px;
+	margin: 0px auto;
+	background: url("../images/atbg1.png") center top no-repeat;
+	background-size: cover;
+}
+.login{
+	width: 100%;
+	
+}
+.Contact-Us{
+	text-align: center;
+}
+
 .footer{
 	width: 100%;
-	padding: 80px 0px 10px;
-	background: #000;
+	float: left;
+	padding: 15px 0px;
+	background: #0c1234;
+    text-align: center;
 }
 .footer p{
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 1.7em;
-	color: #fff;
-}
-.footer ul{
-	display: block;
-}
-.footer ul li{
-	line-height: none;
-	display: block;
-}
-.footer ul li a{
-	display: inline-block;
-	text-decoration: none;
-	font-size: 16px;
-	line-height: 1.7em;
-	margin: 0px 0px 5px;
-}
-.footer ul li .active{
-	font-weight: 700;
-}
-.footer .copyright{
-	padding: 60px 0px 0px;
-	text-align: center;
-	color: #CDCDCD;
-
+	color: #616ca8;
 }
